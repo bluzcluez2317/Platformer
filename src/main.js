@@ -6,7 +6,7 @@ let config = {
     parent: 'phaser-game',
     type: Phaser.CANVAS,
     render: {
-        pixelArt: true  // prevent pixel art from getting blurred when scaled
+        pixelArt: true  
     },
     physics: {
         default: 'arcade',
@@ -20,7 +20,7 @@ let config = {
     },
     width: 800,
     height: 600,
-    scene: [Load, Platformer, Winner]
+    scene: [Load, PlayScene, Winner]
 }
 
 var cursors;

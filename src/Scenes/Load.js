@@ -7,8 +7,12 @@ class Load extends Phaser.Scene {
         this.load.setPath("./assets/");
 
         // Load tilemap information
-        this.load.image("tilemap_tiles", "monochrome_tilemap_packed.png");                  
-        this.load.tilemapTiledJSON("platformer-level-1", "untitled.tmj"); 
+        this.load.image("tilemap_tiles", "monochrome_tilemap_packed.png");
+        this.load.tilemapTiledJSON("platformer-level-1", "Level1.tmj");
+        this.load.tilemapTiledJSON("platformer-level-2", "Level2.tmj");
+        this.load.tilemapTiledJSON("platformer-level-3", "Level3.tmj");
+        this.load.tilemapTiledJSON("platformer-level-4", "Level4.tmj");
+        this.load.tilemapTiledJSON("platformer-level-5", "Level5.tmj");
 
         // Load the tilemap as a spritesheet
         this.load.spritesheet("tilemap_sheet", "monochrome_tilemap_packed.png", {
@@ -16,13 +20,13 @@ class Load extends Phaser.Scene {
             frameHeight: 16
         });
 
-        // Particle Pack asset pack.
+        // Particle Pack asset pack
         this.load.multiatlas("kenny-particles", "kenny-particles.json");
-        this.load.image("player", "tile_0260.png");  
-
+        this.load.image("player", "tile_0260.png");
     }
 
     create() {
+        // Create animations (shared across all levels)
         this.anims.create({
             key: 'idle',
             frames: this.anims.generateFrameNumbers('tilemap_sheet', { start: 260, end: 260 }),
@@ -43,11 +47,11 @@ class Load extends Phaser.Scene {
             frameRate: 1,
             repeat: 0
         });
-        
-        this.scene.start("platformerScene");
+
+        // Start with level 1
+        this.scene.start("PlayScene", { levelNumber: 1 });
     }
 
-    // Never get here since a new scene is started in create()
     update() {
     }
 }

@@ -48,8 +48,8 @@
                  "type":"",
                  "visible":true,
                  "width":16,
-                 "x":416.823233798866,
-                 "y":31.9583942032373
+                 "x":416.823,
+                 "y":31.9584
                 }, 
                 {
                  "gid":3,
@@ -61,8 +61,8 @@
                  "type":"",
                  "visible":true,
                  "width":16,
-                 "x":272.488517501315,
-                 "y":240.57172909484
+                 "x":272.489,
+                 "y":240.572
                 }, 
                 {
                  "gid":3,
@@ -74,21 +74,8 @@
                  "type":"",
                  "visible":true,
                  "width":16,
-                 "x":432.600712908315,
-                 "y":144.153801203763
-                }, 
-                {
-                 "gid":3,
-                 "height":16,
-                 "id":11,
-                 "name":"Coin",
-                 "opacity":1,
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":16,
-                 "x":910.599894816806,
-                 "y":128.376322094314
+                 "x":432.601,
+                 "y":144.154
                 }, 
                 {
                  "gid":3,
@@ -100,8 +87,8 @@
                  "type":"",
                  "visible":true,
                  "width":16,
-                 "x":1098.17659089581,
-                 "y":109.677087594227
+                 "x":1098.18,
+                 "y":109.677
                 }, 
                 {
                  "gid":3,
@@ -113,8 +100,8 @@
                  "type":"",
                  "visible":true,
                  "width":16,
-                 "x":1568.57920878864,
-                 "y":207.848068719687
+                 "x":1568.58,
+                 "y":207.848
                 }, 
                 {
                  "gid":3,
@@ -126,8 +113,8 @@
                  "type":"",
                  "visible":true,
                  "width":16,
-                 "x":1776.02384152399,
-                 "y":173.37135511015
+                 "x":1776.02,
+                 "y":173.371
                 }, 
                 {
                  "gid":57,
@@ -139,21 +126,60 @@
                  "type":"",
                  "visible":true,
                  "width":16,
-                 "x":1872.70175438596,
-                 "y":128.46783625731
+                 "x":1872.7,
+                 "y":128.468
                 }, 
                 {
-                 "gid":57,
+                 "gid":98,
                  "height":16,
-                 "id":18,
-                 "name":"",
+                 "id":20,
+                 "name":"Key",
                  "opacity":1,
                  "rotation":0,
                  "type":"",
                  "visible":true,
                  "width":16,
-                 "x":1982.6432748538,
-                 "y":196.888888888889
+                 "x":912.927,
+                 "y":116.873
+                }, 
+                {
+                 "gid":184,
+                 "height":16,
+                 "id":21,
+                 "name":"Spikes",
+                 "opacity":1,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":1424,
+                 "y":191.998
+                }, 
+                {
+                 "gid":184,
+                 "height":16,
+                 "id":22,
+                 "name":"Spikes",
+                 "opacity":1,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":1456,
+                 "y":192
+                }, 
+                {
+                 "gid":184,
+                 "height":16,
+                 "id":23,
+                 "name":"Spikes",
+                 "opacity":1,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":1440,
+                 "y":191.999
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -162,7 +188,7 @@
          "y":0
         }],
  "nextlayerid":6,
- "nextobjectid":20,
+ "nextobjectid":24,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.12.1",
@@ -2216,380 +2242,6 @@
                         }]
                 }],
          "tilewidth":16
-        }, 
-        {
-         "columns":20,
-         "firstgid":401,
-         "image":"..\/..\/PlatformImprovement\/assets\/tilemap_packed.png",
-         "imageheight":162,
-         "imagewidth":360,
-         "margin":0,
-         "name":"kenny_tilemap_packed",
-         "spacing":0,
-         "tilecount":180,
-         "tileheight":18,
-         "tiles":[
-                {
-                 "id":0,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":1,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":2,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":3,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":20,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":21,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":22,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":23,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":33,
-                 "properties":[
-                        {
-                         "name":"water",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":34,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":40,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":41,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":42,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":43,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":47,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":48,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":49,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":50,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":53,
-                 "properties":[
-                        {
-                         "name":"water",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":60,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":61,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":62,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":63,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":73,
-                 "properties":[
-                        {
-                         "name":"water",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":80,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":81,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":82,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":83,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":100,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":101,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":102,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":103,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":120,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":121,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":122,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":123,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":140,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":141,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":142,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":143,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }],
-         "tilewidth":18
         }],
  "tilewidth":16,
  "type":"map",
