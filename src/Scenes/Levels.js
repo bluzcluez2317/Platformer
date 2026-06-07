@@ -22,8 +22,8 @@ const LEVELS = [
         { x: 300, y: 170, patrolSpeed: 50, patrolDistance: 50 },
         { x: 1625, y: 170, patrolSpeed: 50, patrolDistance: 75 }
         ],
-        hasKeys: false,
-        hasSpikes: false
+        hasKeys: true,
+        hasSpikes: true
     },
     {
         levelNumber: 3,
@@ -34,15 +34,15 @@ const LEVELS = [
         { x: 775, y: 100, patrolSpeed: 50, patrolDistance: 75 },
         { x: 1100, y: 170, patrolSpeed: 50, patrolDistance: 75 }
         ],
-        hasKeys: false,
-        hasSpikes: false
+        hasKeys: true,
+        hasSpikes: true
     },
     {
         levelNumber: 4,
         tilemapKey: "platformer-level-4",
         playerStartX: 55,
         playerStartY: 200,
-        hasKeys: false,
+        hasKeys: true,
         hasSpikes: false
     },
     {
@@ -50,7 +50,7 @@ const LEVELS = [
         tilemapKey: "platformer-level-5",
         playerStartX: 40,
         playerStartY: 175,
-        hasKeys: false,
+        hasKeys: true,
         hasSpikes: false,
         hasChest: true,
         hasChestKey: true
