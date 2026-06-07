@@ -5,6 +5,11 @@ const LEVELS = [
         tilemapKey: "platformer-level-1",
         playerStartX: 40,
         playerStartY: 200,
+        enemies: [
+        { x: 310, y: 150, patrolSpeed: 50, patrolDistance: 100 },
+        { x: 1050, y: 150, patrolSpeed: 50, patrolDistance: 50 },
+        { x: 1300, y: 150, patrolSpeed: 50, patrolDistance: 50 }
+        ],
         hasKeys: true,
         hasSpikes: true
     },
@@ -13,6 +18,10 @@ const LEVELS = [
         tilemapKey: "platformer-level-2",
         playerStartX: 40,
         playerStartY: 200,
+        enemies: [
+        { x: 300, y: 170, patrolSpeed: 50, patrolDistance: 50 },
+        { x: 1625, y: 170, patrolSpeed: 50, patrolDistance: 75 }
+        ],
         hasKeys: false,
         hasSpikes: false
     },
@@ -21,6 +30,10 @@ const LEVELS = [
         tilemapKey: "platformer-level-3",
         playerStartX: 55,
         playerStartY: 200,
+        enemies: [
+        { x: 775, y: 100, patrolSpeed: 50, patrolDistance: 75 },
+        { x: 1100, y: 170, patrolSpeed: 50, patrolDistance: 75 }
+        ],
         hasKeys: false,
         hasSpikes: false
     },
